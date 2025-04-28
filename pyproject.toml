@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docling-bedrock-plugin"
+version = "0.1.0"
+description = "AWS Bedrock integration for Docling"
+authors = [{name = "Shreyash Patel", email = "patelshreays007@gmai.com"}]
+requires-python = ">=3.10"
+dependencies = [
+    "docling",
+    "boto3",
+]
+
+[project.entry-points."docling"]
+bedrock_plugin = "docling_bedrock_plugin"
