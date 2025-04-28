@@ -32,7 +32,7 @@ This is the recommended method for now, especially for development or using the 
 
     ```bash
     # Replace with the actual repository URL when available
-    git clone https://github.com/your-username/docling-bedrock-plugin.git
+    git clone https://github.com/Slayer412/docling-bedrock-plugin.git
     cd docling-bedrock-plugin
     ```
 
